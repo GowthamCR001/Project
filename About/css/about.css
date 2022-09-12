@@ -194,7 +194,9 @@ span.content{
 	word-spacing: normal;
 }
 
-
+.about-list-right{
+	padding-left: 180px;
+}
 .btn{
 	font-size: 14px;
 	color: #fff;
