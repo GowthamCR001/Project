@@ -146,7 +146,18 @@ body{
 	color: #777;
 	padding-top: 70px;
 }
+.personal-info1 h2{
+	font-size: 30px;
+	font-family:'FontAwesome';
+	text-align: center;
+	color: #777;
+	padding-top: 70px;
+	margin-bottom:30px ;
+}
 
+.personal-info1{
+	margin-bottom: 100px;
+}
 
 .row{
 	display:flex;
@@ -157,9 +168,23 @@ body{
 	font-size: 19px;
 	font-family:'Poppins', sans-serif;;
 	padding-left: 150px;
-	color: #555;
+	
 }
 
+span.title{
+	font-size: 19px;
+	font-family:'Poppins', sans-serif;
+	color: #444;
+}
+span.content{
+	font-size: 19px;
+	font-family:'Poppins', sans-serif;
+	color:#777
+}
+.about-list-left li p{
+	color:#777;
+	font-size: 17px;
+}
 .col-6 ul li{
 	list-style-type: none;
 }
@@ -167,8 +192,8 @@ body{
 .about-list-left{
 	padding-left: 150px;
 	word-spacing: normal;
-
 }
+
 
 .btn{
 	font-size: 14px;
@@ -210,6 +235,7 @@ body{
 .skills-container{
 	align-items: center;
 	margin-left: -60px;
+	margin-bottom: 80px;
 }
 /* Skill container starts */
 .wrapper{
@@ -392,7 +418,18 @@ body{
 	}
 }
 
-.col-6{
+.col-6-clg{
 	flex: 0 0 50%;
 	max-width: 50%;
+}
+
+svg{
+	margin-left: 0px;
+	height: 20px;
+	width: 20px;
+}
+
+span .title-clg {
+	padding-left: 25px;
+	color: #111;
 }
